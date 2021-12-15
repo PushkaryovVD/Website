@@ -7,6 +7,7 @@
     text-transform: uppercase;
     width: 200px;
     overflow: hidden;
+    border-radius: 20px;
 }
 .btn span{
     position: relative;
