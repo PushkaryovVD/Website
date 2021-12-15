@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container__cardui{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.container__cardui .cardui{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background-color: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right:20px ;
+    margin-bottom:10px ;
+}
+.container__cardui .cardui:before{
+    content: '';
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+    background-color: #4973ff;
+    clip-path: circle(150px at 80% 20%);
+    transition: .5s ease-in-out;
+}
+.container__cardui .cardui:hover::before{
+    clip-path: circle(300px at 80% -20%);
+}
+.container__cardui .cardui::after{
+    content: 'Surf';
+    position: absolute;
+top: 30%;left: -20%;
+font-size: 12em;
+font-weight: 800;
+font-style: italic;
+color: rgba(255, 255, 255, .04);
+}
+.container__cardui .cardui .imgbx__cardui{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    width: 100%;
+    height: 220px;
+    transition: .5s;
+}
+.container__cardui .cardui:hover .imgbx__cardui{
+    top: 0%;
+    transform: translateY(0%);
+}
+.image{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%,-50%) rotate(-25deg);
+    width: 270px;
+}
+.container__cardui .cardui .contentbx__cardui{
+    position: absolute;
+    bottom: 0;
+    width: 100%;height: 100%;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+.container__cardui .cardui:hover .contentbx__cardui{
+    height: 210px;
+}
+.container__cardui .cardui .contentbx__cardui h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.container__cardui .cardui .contentbx__cardui .size,.container__cardui .cardui .contentbx__cardui .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.container__cardui .cardui:hover .contentbx__cardui .size{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+.container__cardui .cardui:hover .contentbx__cardui .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+.container__cardui .cardui .contentbx__cardui .size h3,.container__cardui .cardui .contentbx__cardui .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.container__cardui .cardui .contentbx__cardui .size span{
+    width: 26px;height: 26px;
+    text-align: center;line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: .5s;
+    color: #111;
+    cursor: pointer;
+}
+.container__cardui .cardui .contentbx__cardui .size span:hover{
+    background-color: #9bdc28;
+}
+.container__cardui .cardui .contentbx__cardui .color span{
+width: 20px;height: 20px;
+background-color: #ff0;
+border-radius: 50%;
+margin: 0px 5px;cursor: pointer;
+}
+.container__cardui .cardui .contentbx__cardui .color span:nth-child(2){
+    background-color: #9bdc28;
+}
+.container__cardui .cardui .contentbx__cardui .color span:nth-child(3){
+    background-color: #03a9f4;
+}
+.container__cardui .cardui .contentbx__cardui .color span:nth-child(4){
+    background-color: #e91e63;
+}
+.container__cardui .cardui .contentbx__cardui a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50%);transition: .5s;
+}
+.container__cardui .cardui:hover .contentbx__cardui a{
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: .75s;
+}
