@@ -19,6 +19,8 @@
         <link rel="stylesheet" type="text/css" href="./css/card.css">
         <link rel="stylesheet" type="text/css" href="./css/cardui.css">
         <link rel="stylesheet" type="text/css" href="./css/preloader.css">
+        <script src="./js/phoneinput.js"></script>
+
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -76,8 +78,8 @@
                                     </li>
                                 </ul>
                                 <div class="header-btn">
-                                    <a href="#" class="btn">
-                                        <span>Купить</span>
+                                    <a href="./pages/login.html" class="btn">
+                                        <span>Войти</span>
                                         <div class="liquid">
                                         </div></a>
                                 </div>
@@ -695,7 +697,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <input type="text" name="phone" id="phone" placeholder="Номер" required>
+                                        <input type="tel" data-tel-input name="phone" id="phone" placeholder="Номер" maxlength="18">
                                     </div>
                                     <div class="col-md-6">
                                         <input type="text" name="subject" id="email" placeholder="Адрес" required>
