@@ -17,8 +17,7 @@
         var phone = $("#phone").val();
         var email = $("#email").val();
         var address = $("#address").val();
-        var message = document.querySelector('#message').textContent;
-        alert(message);
+        var message = $("#message").val();
         $.ajax({
             type: "POST",
             url: "../php/callmeform-process.php",
