@@ -1,0 +1,157 @@
+.form-1 {
+	padding-top: 6.625rem;	
+	padding-bottom: 5.625rem;	
+	background-color: #153e52;
+}
+
+.form-1 .text-container {
+	margin-bottom: 4rem;
+}
+
+.form-1 .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.form-1 h2 {
+	margin-bottom: 1.375rem;
+	color: #fff;
+}
+
+.form-1 .list-unstyled .fas {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.form-1 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.form-1 .label-control {
+	color: #fff;
+}
+
+.form-1 .form-control-input,
+.form-1 .form-control-select {
+	border: 1px solid #39728f;
+	background-color: #2a5d77;
+	color: #fff;
+}
+
+.form-1 .form-control-textarea {
+	border: 1px solid #39728f;
+	background-color: #2a5d77;
+	color: #fff;
+}
+
+.form-1 .form-control-input:focus,
+.form-1 .form-control-input:hover,
+.form-1 .form-control-select:focus,
+.form-1 .form-control-select:hover,
+.form-1 .form-control-textarea:focus,
+.form-1 .form-control-textarea:hover {
+	border: 1px solid #fff;
+}
+
+#lmsgSubmit.h3.text-center.tada.animated,
+#lmsgSubmit.h3.text-center {
+	color: #4973ff !important;
+    margin-top: 20px;
+}
+
+.form-1 .help-block.with-errors .list-unstyled {
+	color: #7eb9fd;
+}
+
+#lmsgSubmit.h3.text-center.tada.animated,
+#cmsgSubmit.h3.text-center.tada.animated,
+#pmsgSubmit.h3.text-center.tada.animated,
+#lmsgSubmit.h3.text-center,
+#cmsgSubmit.h3.text-center,
+#pmsgSubmit.h3.text-center {
+	display: block;
+	margin-bottom: 0;
+	color: #b93636;
+	font: 400 1.125rem/1rem "Open Sans", sans-serif;
+}
+
+.help-block.with-errors .list-unstyled {
+	color: #787976;
+	font-size: 0.75rem;
+	line-height: 1.125rem;
+	text-align: left;
+}
+
+.help-block.with-errors ul {
+	margin-bottom: 0;
+}
+/* end of form success and error message formatting */
+
+/* Form Success And Error Message Animation - Animate.css */
+@-webkit-keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.tada {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}

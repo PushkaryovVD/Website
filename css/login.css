@@ -5,7 +5,8 @@
 }
 
 body {
-	background: #ffc185;
+	background: url(../image/bg/backlogin.jpg);
+	background-position: 42% 35%;
 }
 
 .container{
@@ -33,7 +34,7 @@ p {
 	font-weight: 100;
 	text-transform: uppercase;
 	font-size: 12px;
-	color: #87613d;
+	color: #4973ff;
 	margin-bottom: 40px;
 }
 
@@ -48,7 +49,7 @@ h3 {
 	font-family: 'Dosis';
 	font-size: 35px;
 	text-transform: uppercase;
-	color: #87613d;
+	color: #4973ff;
 	margin-bottom: 30px;
 }
 
@@ -84,7 +85,7 @@ button.form-btn {
 	bottom: 0;
 	border: 0;
 	font-family: 'Dosis';
-	font-size: 24px;
+	font-size: 18px;
 	text-transform: uppercase;
 	cursor: pointer;
 }
@@ -92,13 +93,13 @@ button.form-btn {
 button.form-btn.sx {
 	left: 0;
 	border-radius: 0 0 0 5px;
-	background-color: rgba(255, 125, 0, 0.35);
+	background-color: rgba(73, 115, 255,0.35);
 	color: #fff;
 	transition:all 0.3s linear;
 }
 
 button.form-btn.sx:hover {
-	background-color:rgba(255, 125, 0, 0.65);
+	background-color:rgba(73, 115, 255,0.65);
 	color: #fff;
 }
 
@@ -114,16 +115,19 @@ button.form-btn.sx.back:hover {
 button.form-btn.dx {
 	right: 0;
 	border-radius: 0 0 5px 0;
-	background-color: #ff7d00;
+	background-color: #4973ff;
 	color: #fff;
 }
-
+.btn span{
+	font-size: 0.9em !important;
+	letter-spacing: normal !important;
+}
 input {
 	border: none;
-	border-bottom: 1px solid #ffc185;
+	border-bottom: 1px solid #7a99ff;
 	width: 85%;
 	font-family: 'Roboto';
-	color: #ff7d00;
+	color: #4973ff;
 	text-align: center;
 	font-size: 21px;
 	font-weight:100;
@@ -131,25 +135,25 @@ input {
 }
 
 ::-webkit-input-placeholder {
-   color: #ffc185;
+   color: #7a99ff;
 	font-family: 'Roboto';
 	font-weight:100;
 }
 
 :-moz-placeholder {
-   color: #ffc185;  
+   color: #7a99ff;  
 	font-family: 'Roboto';
 	font-weight:100;
 }
 
 ::-moz-placeholder {
-   color: #ffc185;  
+   color: #7a99ff;  
 	font-family: 'Roboto';
 	font-weight:100;
 }
 
 :-ms-input-placeholder {  
-   color: #ffc185; 
+   color: #7a99ff; 
 	font-family: 'Roboto';
 	font-weight:100;
 }

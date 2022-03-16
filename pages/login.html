@@ -5,33 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <title>SurfRider</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/butt.css">
+    <title>SurfRider_LOGIN</title>
         
 </head>
 <body>
 
     <div class="container">
         <form class="signUp">
-            <h3>Create Your Account</h3>
-            <p>Just enter your email address</br>
-    and your password for join.
+            <h3>Создать аккаунт</h3>
+            <p>Вам нужно ввести логин и пароль</br>
             </p>
-            <input class="w100" type="email" placeholder="Insert eMail" reqired autocomplete='off' />
-            <input type="password" placeholder="Insert Password" reqired />
-            <input type="password" placeholder="Verify Password" reqired />
-            <button class="form-btn sx log-in" type="button">Log In</button>
-            <button class="form-btn dx" type="submit">Sign Up</button>
+            <input class="w100" type="email" placeholder="Почта" reqired autocomplete='off' />
+            <input type="password" placeholder="Пароль" autocomplete='off' reqired />
+            <input type="password" placeholder="Повтори Пароль"  autocomplete='off' reqired />
+            <button class="form-btn sx log-in btn" type="button"><span>Войти</span></button>
+            <button class="form-btn dx btn" type="submit"><span>Регистрация</span><div class="liquid">
+            </div></button>
             
         </form>
         <form class="signIn">
-            <h3>Welcome</br>Back !</h3>
-            <button class="fb" type="button">Log In With Facebook</button>
-            <p>- or -</p>
-            <input type="email" placeholder="Insert eMail" autocomplete='off' reqired />
-            <input type="password" placeholder="Insert Password" reqired />
-            <button class="form-btn sx back" type="button">Back</button>
-            <button class="form-btn dx" type="submit">Log In</button>
+            <h3>Добро пожаловать </br>Обратно !</h3>
+            <input type="email" placeholder="Почта" autocomplete='off' reqired />
+            <input type="password" placeholder="Пароль" autocomplete='off' reqired />
+            <button class="form-btn sx back btn" type="button"><span>Назад</span></button>
+            <button class="form-btn dx btn" type="submit"><span>Войти</span><div class="liquid">
+            </div></button>
         </form>
     </div>
     <script src="../js/login.js"></script>
