@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="../css/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/butt.css">
-    <title>SurfRider_LOGIN</title>
+    <title>SurfRider_login</title>
         
 </head>
 <body>
 
     <div class="container">
-        <form class="signUp">
+        <form action="../php/register.php" method="POST"class="signUp">
             <h3>Создать аккаунт</h3>
             <p>Вам нужно ввести логин и пароль</br>
             </p>
-            <input class="w100" type="email" placeholder="Почта" reqired autocomplete='off' />
-            <input type="password" placeholder="Пароль" autocomplete='off' reqired />
-            <input type="password" placeholder="Повтори Пароль"  autocomplete='off' reqired />
+            <input class="w100"    name="name" id ="name" type="text" placeholder="Логин" reqired autocomplete='off' />
+            <input class="w100"    name="email" id ="email" type="email" placeholder="Почта" reqired autocomplete='off' />
+            <input type="password" name="pass" id ="pass" placeholder="Пароль" autocomplete='off' reqired />
+            <input type="password" name="vpass" id ="vpass" placeholder="Повтори Пароль"  autocomplete='off' reqired />
             <button class="form-btn sx log-in btn" type="button"><span>Войти</span></button>
             <button class="form-btn dx btn" type="submit"><span>Регистрация</span><div class="liquid">
             </div></button>
             
         </form>
-        <form class="signIn">
-            <h3>Добро пожаловать </br>Обратно !</h3>
-            <input type="email" placeholder="Почта" autocomplete='off' reqired />
-            <input type="password" placeholder="Пароль" autocomplete='off' reqired />
+        <form action="../php/auth.php" method="POST" class="signIn">
+            <h3>Добро пожаловать!</h3>
+            <input type="email" name="umail" id ="umail" placeholder="Почта" autocomplete='on' reqired />
+            <input type="password" name="upass" id ="upass" placeholder="Пароль" autocomplete='on' reqired />
             <button class="form-btn sx back btn" type="button"><span>Назад</span></button>
             <button class="form-btn dx btn" type="submit"><span>Войти</span><div class="liquid">
             </div></button>

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../image/favicon.png">
     <link rel="stylesheet" href="../css/error.css">
-    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>404</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-12 mt-5 mb-5">
-        <svg width="100%" height="auto" viewBox="0 0 636 324" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" viewBox="0 0 636 324" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="OBJECTS">
     <g id="Group">
     <path id="Vector" d="M101.3 255.2C101.3 255.2 111.1 272.6 181.8 280.5C252.5 288.4 288.2 314.9 333.1 322.8C378 330.7 433.6 278.5 481.8 286.5C530 294.4 588.2 264.2 592.8 255.2H101.3Z" fill="#2F1829"/>

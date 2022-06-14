@@ -21,27 +21,29 @@ if (empty($_POST["address"])) {
 } else {
     $address = $_POST["address"];
 }
+$message = $_POST["message"];
 
-
-
+// Кому отправляется
 $EmailTo = "asmodeuspython@gmail.com";
-$Subject = "New quote request from Aria landing page";
+$Subject = "Surfrider Website";
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Номер заказа: ".(string) rand();
+$Body .= "\n";
+$Body .= "Имя: ";
 $Body .= $name;
 $Body .= "\n";
-$Body .= "Phone: ";
+$Body .= "Телефон: ";
 $Body .= $phone;
 $Body .= "\n";
-$Body .= "Email: ";
+$Body .= "Почта: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "Address: ";
+$Body .= "Адрес: ";
 $Body .= $address;
 $Body .= "\n";
-$Body .= "Message: ";
+$Body .= "Сообщение: ";
 $Body .= $message;
 $Body .= "\n";
 
